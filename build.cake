@@ -20,7 +20,7 @@ var commitId = "SNAPSHOT";
 // Define product name and version
 var product = "Htc.Vita.External.VC14.Redist";
 var companyName = "HTC";
-var version = "14.12.25810";
+var version = "14.13.26020";
 var semanticVersion = string.Format("{0}.{1}", version, revision);
 var ciVersion = string.Format("{0}.{1}", version, "0");
 var nugetTags = new [] {"htc", "vita", "external", "vc14", "redist"};
@@ -37,8 +37,8 @@ var signIntervalInMilli = 1000 * 5;
 // Define path
 var targetFileNameX64 = string.Format("vcredist_2017_x64-{0}.exe", version);
 var targetFileNameX86 = string.Format("vcredist_2017_x86-{0}.exe", version);
-var targetFileUrlX64 = "http://download.visualstudio.microsoft.com/download/pr/100349091/2cd2dba5748dc95950a5c42c2d2d78e4/VC_redist.x64.exe";
-var targetFileUrlX86 = "http://download.visualstudio.microsoft.com/download/pr/100349138/88b50ce70017bf10f2d56d60fcba6ab1/VC_redist.x86.exe";
+var targetFileUrlX64 = "https://download.visualstudio.microsoft.com/download/pr/100493959/73e1ab8917c6ee08fb03a230865b9401/VC_redist.x64.exe";
+var targetFileUrlX86 = "https://download.visualstudio.microsoft.com/download/pr/100486102/9ca0bba83015c844cc98d7cb783370e9/VC_redist.x86.exe";
 var targetSha512sumFileNameX64 = string.Format("{0}.sha512sum", targetFileNameX64);
 var targetSha512sumFileNameX86 = string.Format("{0}.sha512sum", targetFileNameX86);
 
